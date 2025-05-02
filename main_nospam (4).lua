@@ -282,7 +282,7 @@ local remoteLogs = {}
 --- used for hookfunction
 getgenv().SIMPLESPYCONFIG_MaxRemotes = 300
 local lastRemoteCall = {}
-local debounceTime = 2 -- 0.5 giây chặn log trùng lặp
+local debounceTime = 7 -- 0.5 giây chặn log trùng lặp
 local indent = 4
 local scheduled = {}
 local schedulerconnect
